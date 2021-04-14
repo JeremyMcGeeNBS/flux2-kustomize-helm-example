@@ -6,10 +6,13 @@ metadata:
 spec:
   releaseName: balance-api
   chart:
-    repository: https://familymcgee.jfrog.io/fls-docker-repo
     name: balance-api
     version: "0.1.0"
-  interval: 5m
+    sourceRef:
+      kind: HelmRepository
+      name: simple-balance
+      namespace: flux-system
+  interval: 1m
   install:
     remediation:
       retries: 3
