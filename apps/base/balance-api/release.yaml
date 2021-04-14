@@ -10,7 +10,7 @@ spec:
     version: "0.1.0"
     sourceRef:
       kind: HelmRepository
-      name: simple-balance
+      name: familymcgee
       namespace: flux-system
   interval: 1m
   install:
