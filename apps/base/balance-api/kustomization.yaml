@@ -4,3 +4,5 @@ namespace: simple-balance
 resources:
   - namespace.yaml
   - release.yaml
+  - repository.yaml
+  
